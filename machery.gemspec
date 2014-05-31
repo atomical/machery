@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Machery::VERSION
   spec.authors       = ['Adam Hallett']
   spec.email         = ['adam.t.hallett@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A wrapper for using Mach OSX functions in Ruby.}
+  spec.description   = %q{A wrapper for using Mach OSX functions in Ruby.}
   spec.homepage      = ''
   spec.license       = 'MIT'
 
@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'debugger'
 
   spec.add_dependency 'ffi'
-  spec.add_dependency 'ffi-inliner'
+  spec.add_dependency 'ffi-inliner', '>= 0.2.4'
 end
